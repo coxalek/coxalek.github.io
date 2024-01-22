@@ -1,0 +1,52 @@
+header{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(128, 99, 42);
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    text-align: right;
+    background-color: rgb(128, 99, 42);
+    text-decoration: none;
+    padding: 14px 16px;
+}
+body{
+    color: rgb(149, 128, 7);
+    background-color: rgb(10, 76, 24);
+    font-family: 'Helvetica', sans-serif;
+}
+a{
+    font-family: 'Helvetica', sans-serif;
+}
+a:hover{
+    background-color:grey;
+}
+a:visited{
+    color: white;
+}
+main h2, main p{
+    text-align: center;
+}
+footer p{
+    display: block;
+    padding: 0;
+    text-align: center;
+}
+#design-tag{
+    padding: 0;
+    bottom: 0;
+    padding-left: 20;
+    position: absolute;
+}
+main div, footer div{
+    padding-bottom: 50px;
+}
+
