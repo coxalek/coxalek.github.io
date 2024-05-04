@@ -1,26 +1,32 @@
 header{
     text-align: center;
 }
-ul{
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(128, 99, 42);
+    background-color: #35393C;
 }
-li{
+nav ul li{
     float:left;
 }
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+
 li a{
     display: block;
     text-align: right;
-    background-color: rgb(128, 99, 42);
+    background-color: #35393C;
     text-decoration: none;
     padding: 14px 16px;
 }
 body{
-    color: rgb(149, 128, 7);
-    background-color: rgb(10, 76, 24);
+    color: #35393C;
+    background-color: #5DA399;
     font-family: 'Helvetica', sans-serif;
 }
 a{
@@ -35,18 +41,45 @@ a:visited{
 main h2, main p{
     text-align: center;
 }
-footer p{
-    display: block;
-    padding: 0;
+footer {
+    margin: 0 auto;
+    padding: 1em 0 1em 0;
     text-align: center;
+    width: 100%;
 }
+
 #design-tag{
-    padding: 0;
     bottom: 0;
-    padding-left: 20;
-    position: absolute;
+    padding-left: 0px;
+    position: relative;
 }
 main div, footer div{
     padding-bottom: 50px;
 }
+img{
+width: 50%;
+height: 20%;
+padding-left: 250px;
+}
+#complexTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  #complexTable th, #complexTable td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  #complexTable th {
+    background-color: #f2f2f2;
+  }
+  #complexTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  #simpleTable, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
 
