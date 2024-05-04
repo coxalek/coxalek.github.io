@@ -3,21 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alekzandr Cox's Aromatic Chameleon || ITIS 3135 || About </title>
+  <title>Alekzandr Cox's Aromatic Chameleon || ITIS 3135 || FirstScripts </title>
   <link rel="stylesheet" href="styles/default.css">
+  <script src="scripts/defaultscrips.js"></script>
 </head>
 
 <body>
   <header>
   <h1>Alekzandr Cox's Aromatic Chameleon || ITIS3135</h1>
-
     <nav>
       <a href = "./"><strong>Home</strong></a>
       ||
       <a href = "introduction.html">Introduction</a>
       ||
       <a href = "contract.html">Contract</a>
-	  ||
+      ||
       <a href = "tables.html">Tables</a>
       ||
       <a href = "about.html">About</a>
@@ -27,23 +27,34 @@
       <a href="firstscripts.html">First Scripts</a>
 
     </nav>
-
   </header>
 
   <main>
-    <h2>ITIS 3135 About</h2>
-    <p>Enter the magical world of Aromatic Chameleon, where each lick unveils a 
-    delicious surprise! Our specialty is creating imaginative and sensory-appealing 
-    double-sided lollipops. Our lollipops combine two different flavors into a wonderful
-    treat that is a symphony of flavors. Our double-sided lollipops offer an experience 
-    unlike any other, whether you're craving the creamy richness of chocolate mixed with the 
-    crunch of caramel or the zesty tang of citrus contrasted with the sweetness of berries. 
-    Take a trip through flavor exploration with us, and while you experience the wonder
-    of Aromatic Chameleon's double-sided lollipops, let your taste buds dance with joy.</p>
+    <h2>ITIS 3135 First Scripts</h2>
+        <h3 id="dateTime"></h3>
+        <div class="userInput">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name">
+            <label for="mood">How are you feeling?</label>
+            <input type="text" id="mood">
+            <p id="greeting"></p>
+            <button onclick="greetUser()">Submit</button>
+        </div>
+        <div class="favoriteNumber">
+            <label for="number">Enter your favorite number (0-10):</label>
+            <input type="number" id="number" min="0" max="10">
+            <button onclick="showPolygonName()">Submit</button>
+        </div>
+        <div class="functions">
+            <button onclick="changeColors()">Change Colors!</button>
+            <button onclick="tryBothSides()">Try Both Sides of the Lollipop!</button>
+            <button onclick="createLollipop()">Create a new lollipop!</button>
+            <button onclick="fightRango()">Fight Rango!</button>
+        </div>
   </main>
 
 <footer>
-    <p><em>Twice the Flavor, Twice the Fun!</em></p>
+  <p><em>Twice the Flavor, Twice the Fun!</em></p>
   <nav>
     <a href = "https://webpages.charlotte.edu/acox78/">UNCC Homepage</a>
     ||

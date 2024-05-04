@@ -121,8 +121,6 @@ button {
     padding: 7px 14px;
 }
 
-
-
 label {
     display: block;
     margin-bottom: 10px;
@@ -131,4 +129,8 @@ label {
 input[type="radio"]{
     padding: 0%;
     display: inline;
+}
+
+#dateTime{
+    text-align: center;
 }
