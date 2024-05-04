@@ -1,3 +1,10 @@
+:root {
+    --main-bg-color: #5DA399;
+    --main-text-color: #35393C;
+    --link-color: #5776B2;
+    --link-hover-color: #1d386a;
+}
+
 header{
     text-align: center;
 }
@@ -41,6 +48,7 @@ a:visited{
 main h2, main p{
     text-align: center;
 }
+
 footer {
     margin: 0 auto;
     padding: 1em 0 1em 0;
@@ -56,11 +64,13 @@ footer {
 main div, footer div{
     padding-bottom: 50px;
 }
+
 img{
 width: 50%;
 height: 20%;
 padding-left: 250px;
 }
+
 #complexTable {
     width: 100%;
     border-collapse: collapse;
@@ -82,4 +92,43 @@ padding-left: 250px;
     border-collapse: collapse;
   }
 
+  
+  form {
+    align-items: center;
+    border: 2px solid var(--main-text-color);
+    border-color: var(--main-text-color);
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 20px auto;
+    padding: 1em 1.2em .4em 1.2em;
+    width: 40%;
+}
 
+fieldset {
+    border: none;
+    margin: 5px auto 5px auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+
+button {
+    background-color: var(--main-text-color);
+    color: var(--main-bg-color);
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+    padding: 7px 14px;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"]{
+    padding: 0%;
+    display: inline;
+}
