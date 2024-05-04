@@ -8,13 +8,7 @@ function getCurrentDateTime() {
     return "Today is " + time + " on " + dayOfWeek + ", " + date + " " + month + ", " + year;
 }
 
-function greetUser() {
-    var name = document.getElementById('name').value;
-    var mood = document.getElementById('mood').value;
-    var greeting = document.createElement('p');
-    greeting.textContent = "The Your Company Name welcomes you, " + name + "! We're glad you are doing " + mood + "!";
-    document.getElementById("test").appendChild(greeting);
-}
+
 function greetUser() {
     let name = document.getElementById('name').value;
     let mood = document.getElementById('mood').value;
@@ -22,7 +16,7 @@ function greetUser() {
     if (name === '' || mood === '') {
         greeting = "Input not valid";
     } else {
-        greeting = "The Your Company Name welcomes you, " + name + "! We're glad you are doing " + mood + "!";
+        greeting = "The Aromatic Chameleon welcomes you, " + name + "! We're glad you are doing " + mood + "!";
     }
     document.getElementById('greeting').textContent = greeting;
 }
